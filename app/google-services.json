@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "7708017692",
+    "project_id": "alertatv-6c92f",
+    "storage_bucket": "alertatv-6c92f.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:7708017692:android:a8c3e01b77f90616170bd9",
+        "android_client_info": {
+          "package_name": "com.JajaTVMSG.tvpopup"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs0OWuEYwMWy8UaeVkDYwxfXXKevcC6kM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
