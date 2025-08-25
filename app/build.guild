@@ -1,1 +1,32 @@
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+}
 
+android {
+    namespace 'com.tvpopup'
+    compileSdk 33
+
+    defaultConfig {
+        applicationId "com.tvpopup"
+        minSdk 21
+        targetSdk 33
+        versionCode 1
+        versionName "1.0"
+    }
+
+    buildTypes {
+        release {
+            // Para simplificar, sin minify
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation platform('com.google.firebase:firebase-bom:32.7.0')
+    implementation 'com.google.firebase:firebase-database-ktx'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.core:core-ktx:1.10.1'
+}
